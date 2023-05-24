@@ -1,19 +1,32 @@
 /* Add your code in each class */
 body {
+  background-color: blueviolet;
 }
 .container {
 }
 .movie-card {
+  object-fit: cover;
+  object-position: 40% 100%;
 }
 .movie-image {
+  width: 500px;
+  margin: 500px 500px;
+  padding: 10px;
 }
 .movie-details-container {
+  position: relative;
+  object-fit: fill;
 }
 .descriptions {
+  position: relative;
+  top: -650px;
+  left: 520px;
+  color: rgb(204, 244, 245);
 }
 
 /*A gift from us!*/
 .movie-shadow {
+  text-shadow: none;
   /*
     This gradient was made by this website https://cssgradient.io/
 */
@@ -26,6 +39,13 @@ body {
     rgba(0, 0, 0, 0.75) 0%,
     rgba(0, 0, 0, 0) 100%
   );
+  top: ;
 }
 .movie-title {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-seri;
+  color: rgb(0, 251, 255);
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-size: 20px;
 }
